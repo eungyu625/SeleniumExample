@@ -49,7 +49,7 @@ public class SeleniumTest1Test {
 
     @Test
     public void hello() {
-        System.out.println("HELLO WORLD!!!");
+        System.out.println("HELLO WORLD");
     }
 
     @Test
