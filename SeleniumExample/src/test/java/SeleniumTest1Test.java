@@ -46,12 +46,6 @@ public class SeleniumTest1Test {
     public void tearDown() {
         driver.quit();
     }
-
-    @Test
-    public void hello() {
-        System.out.println("HELLO WORLD!!!");
-    }
-
     @Test
     public void hongik5() throws InterruptedException {
         driver.get("https://www.hongik.ac.kr/index.do");
