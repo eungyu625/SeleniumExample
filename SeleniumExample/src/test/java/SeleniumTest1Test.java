@@ -48,6 +48,11 @@ public class SeleniumTest1Test {
     }
 
     @Test
+    public void hello() {
+        System.out.println("HELLO HONGIK!");
+    }
+
+    @Test
     public void hongik5() throws InterruptedException {
         driver.get("https://www.hongik.ac.kr/index.do");
         driver.manage().window().setSize(new Dimension(1552, 840));
